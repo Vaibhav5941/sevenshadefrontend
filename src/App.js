@@ -1,5 +1,4 @@
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
- 
 import AdminLOgin from './administrator/screens/AdminLogin';
 import AdminDashboard from './administrator/screens/AdminDashboard';
 import Home from './userinterface/screens/Home';
