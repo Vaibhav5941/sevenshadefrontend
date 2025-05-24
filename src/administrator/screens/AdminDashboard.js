@@ -12,7 +12,7 @@ import DashboardIcon from '@mui/icons-material/Dashboard';
 import { Routes,Route,Navigate } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { serverURL } from "../../services/FetchDjangoApiServices";
-import YardIcon from '@mui/icons-material/Yard';``
+import YardIcon from '@mui/icons-material/Yard';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import ViewCarouselIcon from '@mui/icons-material/ViewCarousel';
@@ -28,7 +28,7 @@ import ProductDetail from './ProductDetail'
 import DisplayProductDetail from "./DisplayProductDetail";
 import Brand from "./Brand"
 import DisplayAllBrand from "./DisplayAllBrand"
-import Banners from "./Banners";
+import Banners from "./Banners";``
 export default function AdminDashboard(props){
   const classes=useStyles();
   const navigate=useNavigate();
