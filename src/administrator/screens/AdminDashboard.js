@@ -28,7 +28,7 @@ import ProductDetail from './ProductDetail'
 import DisplayProductDetail from "./DisplayProductDetail";
 import Brand from "./Brand"
 import DisplayAllBrand from "./DisplayAllBrand"
-import Banners from "./Banners";``
+import Banners from "./Banners";
 export default function AdminDashboard(props){
   const classes=useStyles();
   const navigate=useNavigate();
