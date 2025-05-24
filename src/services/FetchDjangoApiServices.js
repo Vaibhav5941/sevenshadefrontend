@@ -1,5 +1,5 @@
 import axios  from "axios";
-var serverURL='http://127.0.0.1:8000'
+var serverURL='https://vaibhavgupta5941.pythonanywhere.com'
 const postData=async(url,body)=>
 { try
     {
