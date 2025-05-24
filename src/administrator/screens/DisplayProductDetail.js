@@ -56,7 +56,7 @@ export default function DisplayProductDetail()
               <div>{rowData.offertype}/Size:{rowData.size}/{rowData.color}</div>
             </div> },
          
-              { title: 'Icon',render:(row)=><div style={{width:110,display:'flex',flexWrap:'wrap'}}>{row?.icon?.split(',').map((item)=><img src={` ${serverURL}/static/${item}`} style={{margin:2,width:30,height:30,borderRadius:5}}/>)}</div>}
+              { title: 'Icon',render:(row)=><div style={{width:110,display:'flex',flexWrap:'wrap'}}>{row?.icon?.split(',').map((item)=><img src={`${serverURL}/static/${item}`} style={{margin:2,width:30,height:30,borderRadius:5}}/>)}</div>}
             ]}
             data={productDetailList}  //fetch all products     
             actions={[
