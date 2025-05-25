@@ -57,7 +57,7 @@ export default function AdminLOgin() {
     if(result.status)
     {
     dispatch({type:'ADD_USER',payload:[mobileno,result.data[0]]})
-      navigate('/home')
+      navigate('/')
     }
     else
      alert('Invalid Admin Id Password')
